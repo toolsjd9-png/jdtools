@@ -4,7 +4,7 @@ import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 
 export default function Footer() {
-  const whatsappUrl = "https://wa.me/8208108473";
+  const whatsappUrl = "https://wa.me/6387035356";
   const currentYear = new Date().getFullYear();
 
   return (
@@ -78,7 +78,7 @@ export default function Footer() {
                   className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white border border-slate-200 text-sm font-bold text-[#25D366] hover:bg-slate-100 hover:border-slate-300 active:scale-[0.98] transition-all group shadow-sm"
                 >
                   <FaWhatsapp className="w-4 h-4 transition-transform group-hover:scale-110" />
-                  +91 82081 08473
+                  +91 63870 35356
                 </a>
               </div>
             </div>

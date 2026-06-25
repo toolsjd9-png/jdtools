@@ -4,7 +4,7 @@ import React from 'react';
 import { FaWhatsapp, FaRegCommentDots, FaClock, FaUserCheck } from 'react-icons/fa';
 
 export default function ContactSection() {
-  const whatsappUrl = "https://wa.me/918208108473";
+  const whatsappUrl = "https://wa.me/916387035356";
 
   return (
     <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-white relative overflow-hidden border-t border-slate-200">
@@ -80,7 +80,7 @@ export default function ContactSection() {
                     <FaWhatsapp className="w-6 h-6 transition-transform group-hover:scale-110" />
                     Chat on WhatsApp
                   </a>
-                  <p className="text-sm font-bold text-slate-800 tracking-wide">+91 82081 08473</p>
+                  <p className="text-sm font-bold text-slate-800 tracking-wide">+91 63870 35356</p>
                 </div>
 
                 {/* Important Trust Message Box */}

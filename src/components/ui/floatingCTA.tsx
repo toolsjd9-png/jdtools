@@ -4,7 +4,7 @@ import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa';
 
 export default function WhatsappFloatingIcon() {
-  const phoneNumber = "918208108473"; // Includes country code for India (+91)
+  const phoneNumber = "916387035356"; // Includes country code for India (+91)
   const message = encodeURIComponent("Hello! I want to activate my Canva Premium plan.");
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 
