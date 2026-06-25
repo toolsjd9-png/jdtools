@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+/* =========================
+   CANVA DESIGN SYSTEM
+========================= */
+
+:root {
+  /* Brand Colors (Canva-inspired) */
+  --canva-blue: #00c4cc;
+  --canva-purple: #7b2ff7;
+  --canva-pink: #ff4fd8;
+
+  /* Base Theme - FORCED LIGHT MODE AS BASE */
+  --background: #ffffff;
+  --foreground: #0f172a;
+
+  /* Gradients */
+  --primary-gradient: linear-gradient(135deg, #00c4cc, #7b2ff7, #ff4fd8);
+  --button-gradient: linear-gradient(135deg, #00c4cc, #7b2ff7);
+  --soft-gradient: linear-gradient(135deg, rgba(0, 196, 204, 0.08), rgba(123, 47, 247, 0.08));
+
+  /* UI Colors */
+  --card-bg: rgba(255, 255, 255, 0.85);
+  --border-light: rgba(15, 23, 42, 0.08);
+  --shadow: 0 10px 30px rgba(15, 23, 42, 0.04), 0 1px 3px rgba(15, 23, 42, 0.02);
+
+  /* Text Gradient */
+  --text-gradient: linear-gradient(135deg, #00c4cc, #7b2ff7);
+}
+
+/* =========================
+   BASE STYLES
+========================= */
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* =========================
+   GRADIENT UTILITIES
+========================= */
+
+.gradient-text {
+  background: var(--text-gradient);
+  -webkit-background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-bg {
+  background: var(--primary-gradient);
+}
+
+.gradient-soft {
+  background: var(--soft-gradient);
+}
+
+.gradient-border {
+  border: 1px solid transparent;
+  background: linear-gradient(var(--background), var(--background)) padding-box,
+              var(--primary-gradient) border-box;
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.gradient-button {
+  background: var(--button-gradient);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.25s ease;
+  box-shadow: var(--shadow);
+}
+
+.gradient-button:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+  box-shadow: 0 12px 25px rgba(123, 47, 247, 0.2);
+}
+
+/* =========================
+   CARD SYSTEM
+========================= */
+
+.card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-light);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(12px);
+}
+
+/* =========================
+   HERO SUPPORT (optional)
+========================= */
+
+.hero-glow {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: var(--primary-gradient);
+  filter: blur(120px);
+  opacity: 0.12;
+  z-index: -1;
+  border-radius: 50%;
+}
