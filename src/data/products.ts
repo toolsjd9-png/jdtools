@@ -63,12 +63,12 @@ export const products: Product[] = [
   {
     id: 4,
     title: "Office 365 - Lifetime Plan",
-    status: "coming_soon",
+    status: "active",
     price: "649",
     description: "Full cloud productivity suite featuring premium desktop apps, massive secure cloud storage architectures, and seamless multi-device continuous synchronization.",
-    badge: "Coming Soon",
-    rating: 0,
-    reviewsCount: 0,
+    badge: "Best Value",
+    rating: 5.0,
+    reviewsCount: 496,
     productType: 'office_lifetime',
     period: "lifetime",
     image: "/products/office365.avif"
